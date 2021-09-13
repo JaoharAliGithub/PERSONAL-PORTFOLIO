@@ -1,10 +1,6 @@
 import React from "react";
 
-function Project(props) {
-  const title = props.title;
-  const techStack = props.techStack;
-  const link = props.link;
-  const desc = props.desc;
+function Project({ title, techStack, link, desc }) {
   return (
     <div>
       <h1>{title}</h1>
