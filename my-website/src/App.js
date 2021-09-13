@@ -13,6 +13,7 @@ function App() {
         <Intro />
         <About />
         <Projects />
+        <LifelongCreative/>
       </div>
     </div>
   );

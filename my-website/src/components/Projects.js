@@ -1,10 +1,10 @@
 import { React, useState } from "react";
 import Project from "./Project";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import "../styles/Projects.css";
 
-function Projects() {
+
+
+const Projects = () => {
   const [projects, setProject] = useState([
     {
       title: "Java Practice",
@@ -22,7 +22,7 @@ function Projects() {
   ]);
 
   return (
-    <div id="projects">
+    <div class="animation-spin">
       {projects.map((project) => (
         <Project
           title={project.title}
@@ -34,6 +34,6 @@ function Projects() {
       ;
     </div>
   );
-}
+};
 
 export default Projects;
