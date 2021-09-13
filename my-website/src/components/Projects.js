@@ -3,7 +3,6 @@ import Project from "./Project";
 import "../styles/Projects.css";
 
 
-
 const Projects = () => {
   const [projects, setProject] = useState([
     {
